@@ -1,0 +1,18 @@
+.con {
+    margin: 0;
+    padding: 20px;
+
+    @media (max-width: 600px) {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    @media (min-width: 601px) and (max-width: 1024px) {
+      max-width: 80%;
+    }
+  }
+  
+  .error {
+    color: red;
+    margin: 10px 0;
+  }
